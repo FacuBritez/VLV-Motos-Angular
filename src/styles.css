@@ -1,4 +1,19 @@
 /* Es para que el banner funcione */
-body, html {
+body,
+html {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.3rem;
+    /*tamaño de las letras*/
+    line-height: 1.6em;
+    /* interlineado */
     height: 100%;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: darkred;
 }
