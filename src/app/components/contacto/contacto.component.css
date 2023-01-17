@@ -1,0 +1,17 @@
+.links {
+  width: 50%;
+  margin: 0 auto 60px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.bg {
+  background-color: black;
+}
+
+#contacto {
+  padding-top: 10px;
+}
