@@ -1,0 +1,11 @@
+/*Google maps*/
+.map-wrapper{
+  max-width: 700px;
+}
+.googlemap{
+  width: 100%;
+}
+
+.padding {
+    padding-top: 10px;
+}
