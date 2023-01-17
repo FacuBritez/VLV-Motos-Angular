@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
-import { HorariosComponent } from './components/horarios/horarios.component';
 import { MapaComponent } from './components/mapa/mapa.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -18,7 +17,6 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     NosotrosComponent,
     ContactoComponent,
-    HorariosComponent,
     MapaComponent,
     FooterComponent
   ],
