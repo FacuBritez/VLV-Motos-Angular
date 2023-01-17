@@ -1,6 +1,7 @@
 .links {
   width: 50%;
-  margin: 0 auto 60px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .links a {
