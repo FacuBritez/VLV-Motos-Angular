@@ -1,5 +1,6 @@
 .bg {
     background-color: black;
+    border-top: darkred solid 2px;
 }
 
 .container {
