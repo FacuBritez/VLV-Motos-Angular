@@ -1,6 +1,5 @@
 .bg {
     background-color: black;
-    border-top: darkred solid 2px;
 }
 
 .container {
@@ -15,4 +14,12 @@ ul {
 
 .iframe {
     margin-top: 3em;
+}
+
+.ancla{
+    padding-top: 55px;
+}
+
+#separador {
+    border-top: darkred solid 2px;
 }

@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nosotros.component.css']
 })
 export class NosotrosComponent implements OnInit {
-
-  constructor() { }
+  //años de experiencia
+  year:number = new Date().getFullYear();
+  constructor() { 
+  }
 
   ngOnInit(): void {
   }
-
 }
