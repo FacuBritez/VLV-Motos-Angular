@@ -1,16 +1,17 @@
 /*Google maps*/
-.map-wrapper{
-  max-width: 700px;
-}
-.googlemap{
-  width: 100%;
-}
+#mapa {
+  padding-top: 70px;
+  padding-bottom: 50px;
 
-.padding {
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
+  p {
+    margin-bottom: 10px;
+  }
 
-p {
-  margin-bottom: 10px;
+  .map-wrapper {
+    max-width: 700px;
+
+    .googlemap {
+      width: 100%;
+    }
+  }
 }

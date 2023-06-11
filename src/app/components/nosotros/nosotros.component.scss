@@ -1,25 +1,15 @@
-.bg {
-    background-color: black;
+#separador {
+    border-top: darkred solid 2px;
+}
+
+.ancla {
+    padding-top: 55px;
 }
 
 .container {
     padding-top: 20px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
 .iframe {
     margin-top: 3em;
-}
-
-.ancla{
-    padding-top: 55px;
-}
-
-#separador {
-    border-top: darkred solid 2px;
 }

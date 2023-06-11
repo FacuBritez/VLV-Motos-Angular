@@ -1,67 +1,63 @@
 .header {
-    background: #212529;
-    color: white;
-    padding: 0px 5px;
-    border-bottom: solid black;
-  
-    /* menu fijo */
-    position: fixed;
-    left: 0;
-    top: 0;
-  
-    /* hace que ocupe todo el ancho */
-    right: 0;
-}
+  background: #212529;
+  color: white;
+  padding: 0px 5px;
+  border-bottom: solid black;
 
-.header a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 0;
-  }
+  /* menu fijo */
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  /* hace que ocupe todo el ancho */
+  right: 0;
 
   .logo-nav-container {
     display: flex;
     justify-content: space-between;
     /* lo alineamos al centro */
     align-items: center;
-  }
 
-  /* logo */
-.logo {
-    letter-spacing: 15px;
-    font-size: 1.3em;
-    margin-left: 15px;
-  }
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 0;
+    }
 
-  img {
-    width: 50px;
+    /* logo */
+    .logo {
+      letter-spacing: 15px;
+      font-size: 1.3em;
+      margin-left: 15px;
+
+      img {
+        width: 50px;
+      }
+    }
+
+    .navigation {
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+          /* uno al lado del otro */
+          display: inline-block;
+
+          /* los enlaces dentro del menu */
+          a {
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.2s linear;
+            border-radius: 5px;
+          }
+
+          a:hover {
+            background: darkred;
+          }
+        }
+      }
+    }
   }
-  
-  .menu-icon {
-    display: none;
-  }
-  
-  
-  
-  .navigation ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .navigation ul li {
-    /* uno al lado del otro */
-    display: inline-block;
-  }
-  
-  /* los enlaces dentro del menu */
-  .navigation ul li a {
-    display: block;
-    padding: 0.5rem 1rem;
-    transition: all 0.2s linear;
-    border-radius: 5px;
-  }
-  
-  .navigation ul li a:hover {
-    background: darkred;
-  }
+}
